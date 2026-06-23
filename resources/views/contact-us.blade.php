@@ -19,13 +19,13 @@
 <meta name="twitter:title" content="Contact Medical Appraisals UK | Book Your Appraisal" />
 <meta name="twitter:description" content="Book your GMC-compliant medical appraisal or get in touch with Prof. Rehan Kazi directly. Fast response guaranteed." />
 
-    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css">
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}">
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
+    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}"></noscript>
+    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.theme.default.min.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.carousel.min.css')}}"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/style.css')}}"></noscript>
     <link rel="shortcut icon" href="{{asset('favicon.png')}}">
     <title>Contact Us - Medical Appraisals</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

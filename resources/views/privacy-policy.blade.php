@@ -20,13 +20,13 @@
 <meta name="twitter:description" content="Read the privacy policy for Medical Appraisals UK. Learn how we collect, use, and protect your personal data in accordance with UK GDPR and data protection law." />
     
     
-    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" preload>
-    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}" preload>
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" preload>
-    <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}" preload>
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}" preload>
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}" preload>
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style1.css')}}" preload>
+    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css"></noscript>
+    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}"></noscript>
+    <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.theme.default.min.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.carousel.min.css')}}"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style1.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/style1.css')}}"></noscript>
     
     <title>Privacy Policy - Medical Appraisals</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

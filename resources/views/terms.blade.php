@@ -20,13 +20,13 @@
 <meta name="twitter:title" content="Terms &amp; Disclaimer | Medical Appraisals UK" />
 <meta name="twitter:description" content="Terms of use and disclaimer for Medical Appraisals UK. Please note: Medical Appraisals UK is a privately held limited company not affiliated with or operating on behalf of the GMC." />
     
-    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" preload>
-    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}" preload>
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" preload>
-    <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}" preload>
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}" preload>
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}" preload>
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style1.css')}}" preload>
+    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css"></noscript>
+    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}"></noscript>
+    <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.theme.default.min.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.carousel.min.css')}}"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style1.css')}}" preload media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/style1.css')}}"></noscript>
 
     
     
@@ -133,7 +133,7 @@
   }
 }
 </script>
-<!--<link type="text/css" rel="stylesheet" href="{{asset('frontend/css/color.css')}}">-->
+<!--<link type="text/css" rel="stylesheet" href="{{asset('frontend/css/color.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/color.css')}}"></noscript>-->
 <script src="https://integration.beyondchats.com/chat-widget?orgId=medicalappraisals.org.uk"></script>
 </head>
 

@@ -18,14 +18,14 @@
 <meta name="twitter:site" content="@Medappraisals" />
 <meta name="twitter:title" content="Designated Body Connection for Doctors | GMC Revalidation Pathway UK" />
 <meta name="twitter:description" content="No prescribed designated body connection? We facilitate a GMC revalidation pathway for locum, private, overseas, and returning doctors worldwide." />
-       <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
+       <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}"></noscript>
 
-    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css">
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}">
-    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style1.css')}}">
+    <link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/plugins.css')}}"></noscript>
+    <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.theme.default.min.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.theme.default.min.css')}}"></noscript>
+    <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/owl.carousel.min.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/owl.carousel.min.css')}}"></noscript>
+    <link type="text/css" rel="stylesheet" href="{{asset('frontend/css/style1.css')}}" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="{{asset('frontend/css/style1.css')}}"></noscript>
     <link rel="shortcut icon" href="{{asset('favicon.png')}}">
     
     <title>Designated Body Connection for Doctors | Medical Appraisals UK</title>

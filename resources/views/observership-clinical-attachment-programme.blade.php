@@ -21,13 +21,13 @@
 <meta name="twitter:description" content="Observership and clinical attachment programme for international medical graduates. NHS GP practice placements across the UK with Medical Appraisals." />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/bootstrap.min.css">
-<link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css">
-<link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/plugins.css">
-<link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/magnific-popup.css">
-<link rel="stylesheet" type="text/css" href="https://medicalappraisals.org.uk/frontend/css/owl.theme.default.min.css">
-<link rel="stylesheet" type="text/css" href="https://medicalappraisals.org.uk/frontend/css/owl.carousel.min.css">
-<link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/style1.css">
+<link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/bootstrap.min.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/bootstrap.min.css"></noscript>
+<link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/color.css"></noscript>
+<link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/plugins.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/plugins.css"></noscript>
+<link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/magnific-popup.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/magnific-popup.css"></noscript>
+<link rel="stylesheet" type="text/css" href="https://medicalappraisals.org.uk/frontend/css/owl.theme.default.min.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/owl.theme.default.min.css"></noscript>
+<link rel="stylesheet" type="text/css" href="https://medicalappraisals.org.uk/frontend/css/owl.carousel.min.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/owl.carousel.min.css"></noscript>
+<link type="text/css" rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/style1.css" media="print" onload="this.onload=null;this.media='all'"><noscript><link rel="stylesheet" href="https://medicalappraisals.org.uk/frontend/css/style1.css"></noscript>
 <link rel="shortcut icon" href="https://medicalappraisals.org.uk/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
