@@ -1,0 +1,368 @@
+RewriteEngine On
+
+# Remove duplicate slashes in the URL
+RewriteCond %{THE_REQUEST} //+
+RewriteRule ^(.*)$ https://medicalappraisals.org.uk/%1 [R=301,L]
+
+# Redirect /faqs to homepage
+RewriteCond %{REQUEST_URI} ^/faqs/?$ [NC]
+RewriteRule ^.*$ https://medicalappraisals.org.uk/ [R=301,L]
+
+# Enable rewrite engine
+
+
+# Old → New redirects (with quoted old paths)
+Redirect 301 "/blog/A-Comprehensive-Guide to-Collecting-Supporting-Information for-Medical-Appraisal for-Doctors-in-the-UK" "/blog/A-Comprehensive-Guide-to-Collecting-Supporting-Information-for-Medical-Appraisal-for-Doctors-in-the-UK"
+
+Redirect 301 "/blog/How-to-Prepare-for-Your First-Ever-Medical-Appraisal" "/blog/How-to-Prepare-for-Your-First-Ever-Medical-Appraisal"
+
+Redirect 301 "/blog/The-Benefits-of-Medical-Revalidation for-Doctors-in-the-UK" "/blog/The-Benefits-of-Medical-Revalidation-for-Doctors-in-the-UK"
+
+Redirect 301 "/blog/what medical-revalidation-set-out-to-achive" "/blog/what-medical-revalidation-set-out-to-achieve"
+# Redirect incorrect blog URLs to correct ones
+Redirect 301 /blog/state-of-the-medical-revalidation-exercise-foruk-doctors /blog/state-of-the-medical-revalidation-exercise-for-uk-doctors
+Redirect 301 /blog/review-of-complaints-and-compliments-int-the-context-of-revalidation-for-doctors /blog/review-of-complaints-and-compliments-in-the-context-of-revalidation-for-doctors
+Redirect 301 /blog/gmc-guidance-on-the-approved-practice-setting-scheme-for-newly-registered-PLAB-cleared-doctors /blog/gmc-guidance-on-the-approved-practice-setting-scheme-for-newly-registered-plab-cleared-doctors
+Redirect 301 /blog/what-are-the-similarities-and-differences-between-an-ARCP-and-a-medical-appraisal /blog/what-are-the-similarities-and-differences-between-an-arcp-and-a-medical-appraisal
+
+Redirect 301 "/blog/suggestions-to-improve-the Medical-appraisal-system-for-doctors-in-the-united-kingdom" "/blog/suggestions-to-improve-the-medical-appraisal-system-for-doctors-in-the-united-kingdom"
+Redirect 301 /blog/suggestions-to-improve-the-20Medical-appraisal-system-for-doctors-in-the-united-kingdom /blog/suggestions-to-improve-the-medical-appraisal-system-for-doctors-in-the-united-kingdom
+Redirect 301 /blog/continuing-professional-development-CPD-for-medical-doctors-a-comparative-analysis /blog/continuing-professional-development-cpd-for-medical-doctors-a-comparative-analysis
+Redirect 301 /blog/the-roles-and-responsibilities-of-designated-dodies-for-revalidation-of-doctors-ensuring-quality-assurance-and-professional-pevelopment /blog/the-roles-and-responsibilities-of-designated-bodies-for-revalidation-of-doctors-ensuring-quality-assurance-and-professional-development
+Redirect 301 /blog/common-mythBusters-about-appraisals-for-doctors-working-in-the-united-kingdom-part-1 /blog/common-mythbusters-about-appraisals-for-doctors-working-in-the-united-kingdom-part-1
+Redirect 301 /blog/15-common-mythBusters-about-continuing-professional-development-for-medical-professionals-in-the-united-kingdom /blog/15-common-mythbusters-about-continuing-professional-development-for-medical-professionals-in-the-united-kingdom
+Redirect 301 /blog/A-Difficult-Medical-Appraisal-Perspectives-of-the-Appraiser-and-Appraisee /blog/a-difficult-medical-appraisal-perspectives-of-the-appraiser-and-appraisee
+Redirect 301 /blog/The-Future-of-Medical-Appraisals-and-Revalidation-in-the-UK /blog/the-future-of-medical-appraisals-and-revalidation-in-the-uk
+Redirect 301 /blog/A-Comprehensive-Guide-to-Collecting-Supporting-Information-for-Medical-Appraisal-for-Doctors-in-the-UK /blog/a-comprehensive-guide-to-collecting-supporting-information-for-medical-appraisal-for-doctors-in-the-uk
+Redirect 301 /blog/How-to-Prepare-for-Your-First-Ever-Medical-Appraisal /blog/how-to-prepare-for-your-first-ever-medical-appraisal
+Redirect 301 /blog/The-Benefits-of-Medical-Revalidation-for-Doctors-in-the-UK /blog/the-benefits-of-medical-revalidation-for-doctors-in-the-uk
+Redirect 301 /blog/Common-MythBusters-About-Colleague-Feedback-for-a-Medical-Appraisa-for-Doctors-Working-in-the-United-Kingdom /blog/common-mythbusters-about-colleague-feedback-for-a-medical-appraisal-for-doctors-working-in-the-united-kingdom
+Redirect 301 /blog/15-Common-MythBusters-About-Patient-Feedback-for-a-Medical-Appraisal-with-Detailed-Explanations-for-Doctors-Working-in-the-United-Kingdom /blog/15-common-mythbusters-about-patient-feedback-for-a-medical-appraisal-with-detailed-explanations-for-doctors-working-in-the-united-kingdom
+Redirect 301 /blog/15-Common-MythBusters-About-Quality-Improvement-Activities-for-a-Medical-Appraisal-for-Doctors-Working-in-the-United-Kingdom /blog/15-common-mythbusters-about-quality-improvement-activities-for-a-medical-appraisal-for-doctors-working-in-the-united-kingdom
+Redirect 301 /blog/15-Common-MythBusters-About-Revalidation-for-Doctors-Working-in-the-United-Kingdom /blog/15-common-mythbusters-about-revalidation-for-doctors-working-in-the-united-kingdom
+# Redirect 301 /robots.txt /
+# Redirect 301 /sitemap.xml /
+RedirectMatch 301 ^/blog$ /blogs
+Redirect 301 "/blog/The-Benefits-of-Medical-Revalidation%20for-Doctors-in-the-UK" "/blog/the-benefits-of-medical-revalidation-for-doctors-in-the-uk"
+
+Redirect 301 "/blog/How-to-Prepare-for-Your" "/blog/how-to-prepare-for-your-first-ever-medical-appraisal"
+Redirect 301 "/blog/whatmedical-revalidation-set-out-to-achive" "/blog/what-medical-revalidation-set-out-to-achieve"
+Redirect 301 "/blog/suggestions-to-improve-theMedical-appraisal-system-for-doctors-in-the-united-kingdom" "/blog/suggestions-to-improve-the-medical-appraisal-system-for-doctors-in-the-united-kingdom"
+
+Redirect 301 "/blog/A-Comprehensive-Guideto-Collecting-Supporting-Informationfor-Medical-Appraisalfor-Doctors-in-the-UK" "/blog/a-comprehensive-guide-to-collecting-supporting-information-for-medical-appraisal-for-doctors-in-the-uk"
+
+Redirect 301 "https://www.bma.org.uk/advice/employment/contracts/academics-contracts/follett-review-principles" "https://www.nhsemployers.org/publications/implementing-follett-principles-health-and-care-professionals"
+Redirect 301 "/observership" "/observership-clinical-attachment-programme"
+
+Redirect 301 /frontend/images/blogs/1780044539-salud.jpg https://medicalappraisals.org.uk/blog/
+Redirect 301 /frontend/images/blogs/1780044660-kamley-filemanager.phtml https://medicalappraisals.org.uk/blog/
+
+
+
+# Redirect anything under /faqs/ (like /faqs/question-1) to homepage
+RewriteCond %{REQUEST_URI} ^/faqs/ [NC]
+RewriteRule ^.*$ https://medicalappraisals.org.uk/ [R=301,L]
+
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+RewriteCond %{HTTP_HOST} ^www\.medicalappraisals\.org\.uk [NC]
+RewriteRule ^(.*)$ https://medicalappraisals.org.uk/$1 [L,R=301]
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+    
+</IfModule>
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect to https
+    # Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+
+
+
+# Remove trailing slash except for root
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteCond %{REQUEST_FILENAME} -d [OR]
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ ^$1 [N]
+
+    RewriteCond %{REQUEST_URI} (\.\w+$) [NC]
+    RewriteCond %{REQUEST_URI} !(\.txt)$ [NC]
+    RewriteRule ^(.*)$ public/$1
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ server.php
+
+    RewriteCond %{REQUEST_METHOD} !^(GET|POST|DELETE|PATCH)
+    RewriteRule .* - [R=405,L]
+
+</IfModule>
+
+
+# FileETag None is not enough for every server.
+<IfModule mod_headers.c>
+Header unset ETag
+</IfModule>
+
+FileETag None
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
+
+<IfModule mod_alias.c>
+<FilesMatch "\.(html|htm|rtf|rtx|txt|xsd|xsl|xml)$">
+<IfModule mod_headers.c>
+Header set X-Powered-By "Matrix Bricks"
+Header unset Pragma
+Header append Cache-Control "public"
+Header unset Last-Modified
+</IfModule>
+</FilesMatch>
+
+<FilesMatch "\.(css|htc|js|asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|json|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|tif|tiff|ttf|ttc|wav|wma|wri|xla|xls|xlsx|xlt|xlw|zip)$">
+<IfModule mod_headers.c>
+Header unset Pragma
+Header append Cache-Control "public"
+</IfModule>
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresDefault                              "access plus 1 month"
+	# cache.appcache needs re-requests in FF 3.6 (thanks Remy ~Introducing HTML5)
+	ExpiresByType text/cache-manifest           "access plus 0 seconds"
+	# Your document html
+	ExpiresByType text/html                     "access plus 0 seconds"
+	# Data
+	ExpiresByType text/xml                      "access plus 0 seconds"
+	ExpiresByType application/xml               "access plus 0 seconds"
+	ExpiresByType application/json              "access plus 0 seconds"
+	# Feed
+	ExpiresByType application/rss+xml           "access plus 1 hour"
+	ExpiresByType application/atom+xml          "access plus 1 hour"
+	# Favicon (cannot be renamed)
+	ExpiresByType image/x-icon                  "access plus 1 week"
+	# Media: images, video, audio
+	ExpiresByType image/gif                     "access plus 4 months"
+	ExpiresByType image/png                     "access plus 4 months"
+	ExpiresByType image/jpeg                    "access plus 4 months"
+	ExpiresByType image/webp                    "access plus 4 months"
+	ExpiresByType video/ogg                     "access plus 4 months"
+	ExpiresByType audio/ogg                     "access plus 4 months"
+	ExpiresByType video/mp4                     "access plus 4 months"
+	ExpiresByType video/webm                    "access plus 4 months"
+	ExpiresByType image/avif                    "access plus 4 months"
+	ExpiresByType image/avif-sequence           "access plus 4 months"
+	# HTC files  (css3pie)
+	ExpiresByType text/x-component              "access plus 1 month"
+	# Webfonts
+	ExpiresByType font/ttf                      "access plus 4 months"
+	ExpiresByType font/otf                      "access plus 4 months"
+	ExpiresByType font/woff                     "access plus 4 months"
+	ExpiresByType font/woff2                    "access plus 4 months"
+	ExpiresByType image/svg+xml                 "access plus 4 months"
+	ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+	# CSS and JavaScript
+	ExpiresByType text/css                      "access plus 1 year"
+	ExpiresByType application/javascript        "access plus 1 year"
+</IfModule>
+# Gzip compression
+<IfModule mod_deflate.c>
+# Active compression
+SetOutputFilter DEFLATE
+# Force deflate for mangled headers
+<IfModule mod_setenvif.c>
+<IfModule mod_headers.c>
+SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+# Don’t compress images and other uncompressible content
+SetEnvIfNoCase Request_URI \
+\.(?:gif|jpe?g|png|rar|zip|exe|flv|mov|wma|mp3|avi|swf|mp?g|mp4|webm|webp|pdf)$ no-gzip dont-vary
+</IfModule>
+</IfModule>
+
+# Compress all output labeled with one of the following MIME-types
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE application/atom+xml \
+		                          application/javascript \
+		                          application/json \
+		                          application/rss+xml \
+		                          application/vnd.ms-fontobject \
+		                          application/x-font-ttf \
+		                          application/xhtml+xml \
+		                          application/xml \
+		                          font/opentype \
+		                          image/svg+xml \
+		                          image/x-icon \
+		                          text/css \
+		                          text/html \
+		                          text/plain \
+		                          text/x-component \
+		                          text/xml
+</IfModule>
+<IfModule mod_headers.c>
+Header append Vary: Accept-Encoding
+</IfModule>
+</IfModule>
+
+# TN - BEGIN Cache-Control Headers
+<ifModule mod_headers.c>
+<filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+Header set Cache-Control "public"
+</filesMatch>
+<filesMatch "\.(css)$">
+Header set Cache-Control "public"
+</filesMatch>
+<filesMatch "\.(js)$">
+Header set Cache-Control "private"
+</filesMatch>
+<filesMatch "\.(x?html?|php)$">
+Header set Cache-Control "private, must-revalidate"
+</filesMatch>
+</ifModule>
+# TN - END Cache-Control Headers
+
+Options All -Indexes
+ServerSignature Off
+
+# BEGIN GZIP COMPRESSION
+<IfModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</IfModule>
+# END GZIP COMPRESSION
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+ # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/webm "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # Fonts
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 year"
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+</IfModule>
+# AMPFORWPLBROWSERCSTART Browser Caching
+<IfModule mod_expires.c>
+ExpiresActive On
+AddType application/vnd.ms-fontobject .eot
+AddType application/x-font-ttf .ttf
+AddType application/x-font-opentype .otf
+AddType application/x-font-woff .woff
+AddType image/svg+xml .svg
+ExpiresByType application/vnd.ms-fontobject "access 1 year"
+ExpiresByType application/x-font-ttf "access 1 year"
+ExpiresByType application/x-font-opentype "access 1 year"
+ExpiresByType application/x-font-woff "access 1 year"
+ExpiresByType image/svg+xml "access 1 year"
+ExpiresByType image/webp "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresByType text/css "access 3 month"
+ExpiresByType text/javascript "access 3 month"
+ExpiresByType application/javascript "access 3 month"
+ExpiresByType application/x-javascript "access 3 month"
+ExpiresByType application/xhtml-xml "access 3 month"
+ExpiresByType application/pdf "access 3 month"
+ExpiresByType application/x-shockwave-flash "access 3 month"
+</IfModule>
+# END Caching AMPFORWPLBROWSERCEND
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_value max_execution_time 900
+   php_value max_input_time 540
+   php_value max_input_vars 5000
+   php_value memory_limit 512M
+   php_value post_max_size 128M
+   php_value session.gc_maxlifetime 10000
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php82"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression On
+</IfModule>
+
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 900
+   php_value max_input_time 540
+   php_value max_input_vars 5000
+   php_value memory_limit 512M
+   php_value post_max_size 128M
+   php_value session.gc_maxlifetime 10000
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php82"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

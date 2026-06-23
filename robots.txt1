@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /author/
+Disallow: /details/
+Disallow: /home-food/
+Disallow: /services/
+Disallow: /tag/
+Disallow: /*?gad_source=*/
+Disallow: /*1000*/
+Disallow: /*.html$
+Disallow: /cdn-cgi/
+
+Allow: /
+Allow: /*.css
+Allow: /*.js
+
+Sitemap: https://medicalappraisals.org.uk/sitemap.xml

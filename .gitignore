@@ -1,0 +1,54 @@
+# ---- Dependencies / build ----
+/node_modules
+# NOTE: /vendor is intentionally committed so the cPanel server does not
+# need to run `composer install` on deploy.
+/public/hot
+/public/storage
+/.idea
+/.vscode
+
+# ---- Secrets / environment (NEVER commit) ----
+.env
+.env.*
+!.env.example
+*.key
+/storage/*.key
+auth.json
+
+# ---- Laravel runtime ----
+# NOTE: storage/framework/* contents are ignored by each folder's own
+# .gitignore keeper (which preserves the empty folder on deploy). We do
+# NOT blanket-ignore them here, or the keepers would be untracked and the
+# folders would vanish on deploy (causing the session write error).
+/storage/logs/*.log
+/bootstrap/cache/*.php
+npm-debug.log
+yarn-error.log
+.phpunit.result.cache
+
+# ---- Database dumps / data (may contain PII) ----
+*.sql
+*.sqlite
+
+# ---- Server / temp junk ----
+error_log
+**/error_log
+php.ini
+.htaccess.bak
+
+# ---- Local dev helpers / one-off tools ----
+/public/fix-storage.php
+/public/phpinfo.php
+/public/mode-test.php
+
+# ---- Old backups (not part of the app) ----
+/bk-28-2-25
+/bkt
+/bk*
+/demo
+
+# ---- Archives / large junk (never commit) ----
+*.zip
+*.rar
+*.7z
+*.psd
