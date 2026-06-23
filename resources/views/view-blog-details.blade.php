@@ -34,11 +34,16 @@
     $imageName = pathinfo($fetch_blog_details->upload_image, PATHINFO_FILENAME);
     $altText = preg_replace('/^\d+-/', '', $imageName); // Remove leading timestamp and dash
     $altText = str_replace('-', ' ', $altText); // Replace dashes with spaces
+    // Real dimensions for the featured image (prevents layout shift / CLS).
+    $imgPath = public_path('frontend/images/blogs/' . $fetch_blog_details->upload_image);
+    $imgW = 1200; $imgH = 675;
+    if (is_file($imgPath)) { $d = @getimagesize($imgPath); if ($d) { $imgW = $d[0]; $imgH = $d[1]; } }
 @endphp
 
 <div class="swiper-slide">
     <img loading="lazy" decoding="async"
         src="{{ asset('frontend/images/blogs/' . $fetch_blog_details->upload_image) }}"
+        width="{{ $imgW }}" height="{{ $imgH }}"
         alt="{{ $altText }}">
 </div>
 
