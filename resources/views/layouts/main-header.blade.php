@@ -275,7 +275,7 @@
                     <li><a aria-label="Facebook" href="https://www.facebook.com/medicalappraisals.org.uk" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a aria-label="Twitter" href="https://twitter.com/Medappraisals" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
                     <li><a aria-label="Linkedin" href="https://www.linkedin.com/in/professor-rehan-kazi-309ab45b/" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>"
-                    <li><a aria-label="Mail" href="mailto:?subject=Check this https://medicalappraisals.org.uk" target="_blank" rel="nofollow noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
+                    <li><a aria-label="Mail" href="mailto:?subject=Check this https://medicalappraisals.org.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
                     
                 </ul>
             </div>
